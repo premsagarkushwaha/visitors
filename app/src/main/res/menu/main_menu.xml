@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_clone"
+            android:icon="@drawable/ic_baseline_accessibility_new_24"
+            android:title="clone" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_face_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Setting" />
+
+
+
+
+    </group>
+    <group android:checkableBehavior="single"
+        >
+        <item android:title="Communication">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_policy"
+                        android:icon="@drawable/ic_baseline_policy_24"
+                        android:title="Privacy and Policy" />
+                    <item
+                        android:id="@+id/nav_help"
+                        android:icon="@drawable/ic_baseline_help_outline_24"
+                        android:title="Help" />
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single"
+        >
+        <item android:title="Payment">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_card"
+                        android:icon="@drawable/ic_baseline_add_card_24"
+                        android:title="Card" />
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
